@@ -1,0 +1,53 @@
+.signupParentDiv {
+    width: 390px;
+    height: 400px;
+    background-color: #F1F6F5;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+  }
+  .signupParentDiv  img{
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .signupParentDiv .input {
+    width: 100%;
+    padding-top: 8px;
+    background-color: #F1F6F5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    outline-color: transparent;
+  }
+  
+  .signupParentDiv button {
+    width: 100%;
+    height: 48px;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    border-color: transparent; 
+    background-color: #4B56D2;
+    color: #fff;
+    font-weight: 700;
+  }
+  .signupParentDiv button:hover {
+    background-color: white;
+    color: #4B56D2;
+    border: 2px solid #4B56D2;
+  }
+  
+  .signupParentDiv a {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  

@@ -1,0 +1,46 @@
+.bannerParentDiv {
+  padding-top: 4em;
+  background-color: #E5E0FF;
+}
+
+.bannerParentDiv .bannerChildDiv .menuBar {
+  display: flex;
+  padding: 10px 16px 10px 16px;
+}
+
+.bannerParentDiv .bannerChildDiv .menuBar .categoryMenu span {
+  margin-right: 10px;
+  font-weight: bolder;
+}
+
+.bannerParentDiv .bannerChildDiv .menuBar .otherQuickOptions span {
+  padding: 15px;
+}
+
+.bannerChildDiv .banner {
+  position: relative;
+  width: 100%;
+}
+.bannerChildDiv .banner img{
+  width: 100%;
+}
+.categoryMenu{
+  width: 18%;
+}
+select{
+ width: 225px;
+ height: 25px;
+ padding: 0 10px;
+ border-radius: 25px;
+ border: solid 1px;
+ font-size: 13px;
+}
+
+@media only screen and (max-width: 700px) {
+  .otherQuickOptions {
+    display: none;
+  }
+  .bannerChildDiv .banner {
+    position: relative;
+  }
+}
