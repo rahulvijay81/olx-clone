@@ -1,3 +1,7 @@
+Olx clone
+
+![olx-clone image](https://user-images.githubusercontent.com/118264222/219931826-33a38ef3-8c92-4aa5-a8f7-1789c2ffa03c.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
