@@ -1,21 +1,21 @@
-import React,{useState,useEffect,useContext} from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { FirebaseContext } from '../../store/Context';
 import { postContext } from '../../store/postContext';
 
 import './View.css';
 function View() {
-const [userDetails,setUserDetails] = useState()
-const {postDetails} =  useContext(postContext)
-const {firebase} = useContext(FirebaseContext)
+  const [userDetails, setUserDetails] = useState()
+  const { postDetails } = useContext(postContext)
+  const { firebase } = useContext(FirebaseContext)
 
-useEffect(()=>{
-  const {userId} = postDetails
-  firebase.firestore().collection('users').where('id','==',userId).get().then((res)=>{
-    res.forEach(doc => {
-      setUserDetails(doc.data())
-    });
-  })
-},[])
+  useEffect(() => {
+    const { userId } = postDetails
+    firebase.firestore().collection('users').where('id', '==', userId).get().then((res) => {
+      res.forEach(doc => {
+        setUserDetails(doc.data())
+      });
+    })
+  }, [])
   return (
     <div className="viewParentDiv">
       <div className="imageShowDiv">
@@ -35,11 +35,11 @@ useEffect(()=>{
           <p>Product Description</p>
           <p>{postDetails.description}</p>
         </div>
-       {userDetails && <div className="contactDetails">
+        {userDetails && <div className="contactDetails">
           <p>Seller details</p>
           <p>{userDetails.username}</p>
           <p>{userDetails.phone}</p>
-        </div> }
+        </div>}
       </div>
     </div>
   );

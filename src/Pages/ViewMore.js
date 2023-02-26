@@ -2,11 +2,11 @@ import React from "react";
 import Header from "../Components/Header/Header";
 import Viewall from '../Components/Viewmore/Viewall'
 
-function ViewMore () {
+function ViewMore() {
     return (
         <div>
-         <Header />
-         <Viewall />
+            <Header />
+            <Viewall />
         </div>
     )
 }

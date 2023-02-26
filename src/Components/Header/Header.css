@@ -1,6 +1,6 @@
 .headerParentDiv {
   padding: 5px;
-  background-color: #DDDDDD;
+  background-color: #dddddd;
   position: fixed;
   width: 100%;
   height: 53px;
@@ -14,7 +14,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.brandName{
+.brandName {
   padding-left: 15px;
 }
 
@@ -41,7 +41,7 @@
 .productSearch {
   width: 33em;
   height: 35px;
-  border: 2px solid #191919 ;
+  border: 2px solid #191919;
   border-radius: 25px;
   background-color: transparent;
   display: flex;
@@ -118,13 +118,13 @@
   height: 2px;
 }
 
-.loginPage a{
+.loginPage a {
   text-decoration: none;
 }
-.loginPage span{
+.loginPage span {
   cursor: pointer;
 }
-.logout{
+.logout {
   cursor: pointer;
 }
 

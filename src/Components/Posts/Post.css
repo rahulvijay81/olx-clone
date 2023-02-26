@@ -33,13 +33,12 @@
   overflow-x: scroll;
   overflow-y: hidden;
 }
-.btn{
+.btn {
   width: 90px;
   height: 25px;
   border: 1px solid black;
   border-radius: 5px;
 }
-
 
 .card {
   margin-right: 15px;

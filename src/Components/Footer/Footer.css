@@ -18,25 +18,25 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background: #4B56D2;
+  background: #4b56d2;
   color: #fff;
 }
 
 .footerParentDiv .footer p {
   margin: 0;
 }
-.list{
+.list {
   font-size: 16px;
   font-weight: 500;
   color: #191919;
   cursor: pointer;
 }
-.list ul{
+.list ul {
   list-style-type: none;
 }
-.list ul li{
+.list ul li {
   padding-top: 5px;
 }
-.list ul li:hover{
-  color: #4B56D2;
+.list ul li:hover {
+  color: #4b56d2;
 }
